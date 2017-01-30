@@ -14,7 +14,6 @@ class App extends React.Component{
 
     this.handleFilterChange = this.handleFilterChange.bind(this);
     this.fetchFilters = this.fetchFilters.bind(this);
-    this.fetchFruit = this.fetchFruit.bind(this);
   }
 
   componentWillMount() {
